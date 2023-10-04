@@ -92,3 +92,6 @@ In the `lecture/` folder, we run `cat` on the README file. We get out the entire
 
 This output is NOT an error.
 
+
+## Summary
+Overall, a fairly simple lab, however I was actually surprised to learn that `ls` on a file would actually work. I also haven't used markdown very much, so it was a fun introduction to it.

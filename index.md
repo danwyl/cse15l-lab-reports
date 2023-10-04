@@ -30,3 +30,6 @@ And here is a code block!:
 ```bash
 git clone https://github.com/danwyl/cse15l-lab-reports.git
 ```
+
+### Lab Reports:
+1. [Lab Report 1 - Remote Access and File System](https://danwyl.github.io/cse15l-lab-reports/report1.html)
