@@ -2,7 +2,7 @@
 
 I'm pretty familiar with the linux filesystem overall, so much of this was a review for me. However, it's still nice to get a refresher. Note that all file paths below will be relative, typically to `/home`.
 
-### cd command
+### `cd` command
 ```bash
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ 
@@ -28,7 +28,7 @@ While in `lecture1/` again, we try to `cd` the file `README`. However, since thi
 
 This output IS an error.
 
-### ls command
+### `ls` command
 ```bash
 [user@sahara ~]$ ls
 lecture1
@@ -62,14 +62,14 @@ we can see that we get back some more information.
 This output is NOT an error.
 
 
-### cat command
+### `cat` command
 ```bash
 [user@sahara ~/lecture1]$ cat
 ^C
 ```
-When running the `cat` command in the `lecture/` folder with no argument, it will continue to wait for an argument to be entered. I had to escape this using the `ctrl + c` sequence. This isn't explicitly an "error" per se, but certainly we aren't going to get out any meaningful information without a file argument.
+When running the `cat` command in the `lecture/` folder with no argument, it will continue to wait for an argument to be entered. I had to escape this using the `ctrl + c` sequence. This isn't explicitly an "error" per se (that is to say we won't get an error message), but certainly we aren't going to get out any meaningful information without a file argument.
 
-This output is KIND OF an error?
+This output is NOT an error.
 
 
 ```bash
