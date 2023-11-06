@@ -62,6 +62,7 @@ Methods Called:
 Values of field `strings`: Empty ArrayList
 
 The value of `strings` changes in this request in that we add the string `Hello` into the `strings` arraylist.
+It then proceeds that `stringFormatter`'s `StringBuilder builder` will have appended to it the `Hello` string.
 
 
 ![Image](images/stringserver2.png)
@@ -76,6 +77,7 @@ Methods Called:
 Values of field `strings`: `[Hello]`
 
 The value of `strings` changes in this request in that we add the string `How are you` into the `strings` arraylist.
+It then proceeds that `stringFormatter`'s `StringBuilder builder` will have appended to it the `Hello` string as well as the `How are you` string.
 
 ### Part 2:
 Local path to private SSH key:
@@ -85,8 +87,10 @@ danwyl@danwyl-MBP ~ % ls .ssh/id_rsa
 ```
 Local path to public key:
 ```bash
-danwyl@danwyl-MBP ~ % ls .ssh/id_rsa.pub 
-.ssh/id_rsa.pub
+[cs15lfa23rh@ieng6-201]:~:70$ ls -la .ssh/authorized_keys 
+-rw-r----- 1 cs15lfa23rh ieng6_cs15lfa23 404 Oct 18 15:08 .ssh/authorized_keys
+[cs15lfa23rh@ieng6-201]:~:71$ cat .ssh/authorized_keys 
+ssh-rsa AAAAB...
 ```
 Logging into `ieng6`
 ```bash
