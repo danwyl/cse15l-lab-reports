@@ -85,7 +85,7 @@ Local path to private SSH key:
 danwyl@danwyl-MBP ~ % ls .ssh/id_rsa
 .ssh/id_rsa
 ```
-Local path to public key:
+Remote path to public key (in authorized_keys):
 ```bash
 [cs15lfa23rh@ieng6-201]:~:70$ ls -la .ssh/authorized_keys 
 -rw-r----- 1 cs15lfa23rh ieng6_cs15lfa23 404 Oct 18 15:08 .ssh/authorized_keys
