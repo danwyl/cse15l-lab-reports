@@ -3,13 +3,14 @@
 ### 4. Log into ieng6
 ![Image](images/report4login.png)
 
-To do this, I typed: `ssh ieng6`
+To do this, I typed: `ssh ieng6`, which SSH's me into the ieng6 server.
 
 ### 5. Clone your fork of the repository from your Github account
 
 ![Image](images/report4clone.png)
 
 To do this, I typed: `git clone git@github.com:danwyl/lab7.git`
+This clones the repository using ssh.
 I was able to this because I had already previously set up the SSH key for github on the ieng6 server.
 
 ### 6. Run the tests, demonstrating that they fail
