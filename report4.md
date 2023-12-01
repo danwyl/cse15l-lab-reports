@@ -5,6 +5,11 @@
 
 To do this, I typed: `ssh ieng6`, which SSH's me into the ieng6 server.
 
+As a caveat, note that I have specifically set up an ssh config for the `ieng6` server, allowing this to happen. It will automatically find the correct hostname of `ieng6.ucsd.edu` and use my user of `cs15lfa23rh`, and then will default to using my `id_rsa` keypair as the authentication method. 
+
+![Image](images/report4ssh.png)
+
+
 ### 5. Clone your fork of the repository from your Github account
 
 ![Image](images/report4clone.png)
